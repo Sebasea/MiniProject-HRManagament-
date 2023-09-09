@@ -1,9 +1,10 @@
-package com.humanresourcesmanagement.Prueba.logica;
+package com.humanresourcesmanagement.Prueba.modelo;
 
 import lombok.Data;
 
+
 @Data
-public class EmpleadoData {
+public class Empleado {
     int codigo;
     String nombre;
     int edad;
@@ -11,7 +12,7 @@ public class EmpleadoData {
     String email;
     int numeroTelefonico;
 
-    public EmpleadoData(int codigo, String nombre, int edad, String rol, String email, int numeroTelefonico) {
+    public Empleado(int codigo, String nombre, int edad, String rol, String email, int numeroTelefonico) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.edad = edad;
